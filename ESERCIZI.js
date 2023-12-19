@@ -125,17 +125,18 @@
 // 8) crea una funzione che crei acronimo da partire da uan frase. es: Fabbrica Italiana Automobili Torino -> FIAT
 
 // ::::::::::::::BEGIN::::::::::::::
-const acronimoDaStringa = function (stringa) {
-  let parole;
-  let acronimo;
-  for (let i = 0; i < stringa.length; i++) {
-    parole = stringa.split(" ");
-    acronimo += parole[i].charAt(0);
-  }
-  return console.log(acronimo);
-};
+// const acronimoDaStringa = function (stringa) {
+//   let parole;
+//   let acronimo = [];
+//   parole = stringa.split(" ");
 
-acronimoDaStringa("ciao stronzo");
+//   for (let i = 0; i < parole.length; i++) {
+//     acronimo += parole[i].charAt(0).toUpperCase() + ".";
+//   }
+//   return console.log(acronimo);
+// };
+
+// acronimoDaStringa("Criminal Society Intelligence");
 // ::::::::::::::END::::::::::::::
 
 //:::::::::::::::::::::: Esercizi extra :::::::::::::::::::::::::::::::
