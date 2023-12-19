@@ -13,12 +13,7 @@
 
 //   return console.log(result);
 // };
-
 // numeri(5, 41);
-// ::::::::::::::END::::::::::::::
-
-// ::::::::::::::BEGIN::::::::::::::
-
 // ::::::::::::::END::::::::::::::
 
 // 2) crea una funzione che rimuova il carattere ad una specifica posizione da una stringa. Passa la stringa e la posizione come
@@ -31,19 +26,83 @@
 //   stringa = stringa.join("");
 
 //   return console.log(stringa);
-//   //return console.log(stringa);
+//
 // };
-
 // rimuovi("bastardo", 2);
 // ::::::::::::::END::::::::::::::
 
 // 3) crea una funzione che controlli se due numeri siano compresi tra 40-60 o tra 70-100. ritorna true se rispecchiano queste condizioni altrimenti false.
 
+// ::::::::::::::BEGIN::::::::::::::
+// const paragone = function (n1, n2) {
+//   let result = false;
+//   if (n1 >= 40 && n1 <= 60 && n2 >= 40 && n2 <= 60) {
+//     result = true;
+//   } else if (n1 >= 70 && n1 <= 100 && n2 >= 70 && n2 <= 100) {
+//     result = true;
+//   } else {
+//     result = false;
+//   }
+
+//   return console.log(result);
+// };
+
+// paragone(70, 101);
+// ::::::::::::::END::::::::::::::
+
 // 4) crea una funzione che accetti un nome di città come parametro e ritorni il nome stesso se inizia con "Los" o "New" altrimenti false
+
+// ::::::::::::::BEGIN::::::::::::::
+// const citta = function (nome) {
+//   if (nome.startsWith("New") || nome.startsWith("Los")) {
+//     return console.log(nome);
+//   } else {
+//     return console.log(false);
+//   }
+// };
+// citta("Los Bucuresti");
+// ::::::::::::::END::::::::::::::
 
 // 5) crea una funzione che calcoli e ritorni la somma di tutti gli elementi di un array (che sarà il parametro)
 
+// ::::::::::::::BEGIN::::::::::::::
+// const sommaArray = function (numeri) {
+//   somma = 0;
+//   for (let i = 0; i < numeri.length; i++) {
+//     somma += numeri[i];
+//   }
+//   return console.log(somma);
+// };
+
+// sommaArray([1, 2, 76]);
+// ::::::::::::::END::::::::::::::
+
 // 6) crea una funzione che controlli he un array NON contenga i numeri 1 o 3. se NON li contiene, ritorna true altirmenti false
+
+// ::::::::::::::BEGIN::::::::::::::
+const arr = [2, 3, 4, 0, 2, 2, 7, 7, 3, 9];
+const checkArray = function (array) {
+  //   for (let i = 0; i < array.length; i++) {
+  //     if (array[i] === 1 || array[i] === 3) {
+  //       return console.log(false + array[i]);
+  //     } else {
+  //       return console.log(true + array[]);
+  //     }
+  //   }
+  // };
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+    if (array[i] === 1) {
+      console.log("ho trovato 1");
+    } else if (array[i] === 1) {
+      console.log("ho trovato 3");
+    } else {
+      console.log("tuttook");
+    }
+  }
+};
+checkArray(arr);
+// ::::::::::::::END::::::::::::::
 
 // 7) crea una funzione che ritorni il tipo di angolo i cui gradi vengono passati come parametro:
 // meno di 90 -> acuto
@@ -51,7 +110,13 @@
 // 90 -> retto
 // 180 -> piatto
 
+// ::::::::::::::BEGIN::::::::::::::
+// ::::::::::::::END::::::::::::::
+
 // 8) crea una funzione che crei acronimo da partire da uan frase. es: Fabbrica Italiana Automobili Torino -> FIAT
+
+// ::::::::::::::BEGIN::::::::::::::
+// ::::::::::::::END::::::::::::::
 
 //:::::::::::::::::::::: Esercizi extra :::::::::::::::::::::::::::::::
 // NOTA: tutti gli esercizi devono essere svolti usando le funzioni
