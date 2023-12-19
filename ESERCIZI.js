@@ -80,28 +80,17 @@
 // 6) crea una funzione che controlli he un array NON contenga i numeri 1 o 3. se NON li contiene, ritorna true altirmenti false
 
 // ::::::::::::::BEGIN::::::::::::::
-const arr = [2, 3, 4, 0, 2, 2, 7, 7, 3, 9];
-const checkArray = function (array) {
-  //   for (let i = 0; i < array.length; i++) {
-  //     if (array[i] === 1 || array[i] === 3) {
-  //       return console.log(false + array[i]);
-  //     } else {
-  //       return console.log(true + array[]);
-  //     }
-  //   }
-  // };
-  for (let i = 0; i < array.length; i++) {
-    console.log(array[i]);
-    if (array[i] === 1) {
-      console.log("ho trovato 1");
-    } else if (array[i] === 1) {
-      console.log("ho trovato 3");
-    } else {
-      console.log("tuttook");
-    }
-  }
-};
-checkArray(arr);
+// const arr = [2, 32, 4, 1, 2, 2, 7, 31, 4, 9];
+// const checkArray = function (array) {
+//   const nr1 = arr.includes(1);
+//   const nr2 = arr.includes(3);
+//   if (nr1 || nr2) {
+//     return console.log(false);
+//   } else {
+//     return console.log(true);
+//   }
+// };
+// checkArray(arr);
 // ::::::::::::::END::::::::::::::
 
 // 7) crea una funzione che ritorni il tipo di angolo i cui gradi vengono passati come parametro:
@@ -111,11 +100,42 @@ checkArray(arr);
 // 180 -> piatto
 
 // ::::::::::::::BEGIN::::::::::::::
+// const definisciAngolo = function (gradi) {
+//   switch (true) {
+//     case gradi < 90:
+//       return console.log("Acuto");
+//       break;
+//     case gradi > 90 && gradi < 180:
+//       return console.log("Angolo Ottuso");
+//       break;
+//     case gradi === 90:
+//       return console.log("Angolo Retto");
+//       break;
+//     case gradi === 180:
+//       return console.log("Angolo Piatto");
+//       break;
+//     default:
+//       return console.log("Ritenta e sarai più fortunato");
+//   }
+// };
+
+// definisciAngolo(325);
 // ::::::::::::::END::::::::::::::
 
 // 8) crea una funzione che crei acronimo da partire da uan frase. es: Fabbrica Italiana Automobili Torino -> FIAT
 
 // ::::::::::::::BEGIN::::::::::::::
+const acronimoDaStringa = function (stringa) {
+  let parole;
+  let acronimo;
+  for (let i = 0; i < stringa.length; i++) {
+    parole = stringa.split(" ");
+    acronimo += parole[i].charAt(0);
+  }
+  return console.log(acronimo);
+};
+
+acronimoDaStringa("ciao stronzo");
 // ::::::::::::::END::::::::::::::
 
 //:::::::::::::::::::::: Esercizi extra :::::::::::::::::::::::::::::::
