@@ -1,7 +1,41 @@
 // 1) crea una funzione che controlli due numeri interi. Ritorna  true se uno dei due è 50 o se la somma dei 2 è 50
 
+// ::::::::::::::BEGIN::::::::::::::
+// const numeri = function (n, n2) {
+//   let result;
+//   if (n === 50 || n2 === 50) {
+//     result = true;
+//   } else if (n + n2 == 50) {
+//     result = true;
+//   } else {
+//     result = false;
+//   }
+
+//   return console.log(result);
+// };
+
+// numeri(5, 41);
+// ::::::::::::::END::::::::::::::
+
+// ::::::::::::::BEGIN::::::::::::::
+
+// ::::::::::::::END::::::::::::::
+
 // 2) crea una funzione che rimuova il carattere ad una specifica posizione da una stringa. Passa la stringa e la posizione come
 // parametri e ritorna la stringa modificata
+
+// ::::::::::::::BEGIN::::::::::::::
+// const rimuovi = function (stringa, posizione) {
+//   stringa = stringa.split("");
+//   stringa.splice(posizione, 1);
+//   stringa = stringa.join("");
+
+//   return console.log(stringa);
+//   //return console.log(stringa);
+// };
+
+// rimuovi("bastardo", 2);
+// ::::::::::::::END::::::::::::::
 
 // 3) crea una funzione che controlli se due numeri siano compresi tra 40-60 o tra 70-100. ritorna true se rispecchiano queste condizioni altrimenti false.
 
